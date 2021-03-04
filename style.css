@@ -1,0 +1,179 @@
+*{
+    font-family: sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0 ;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: montserrat;
+    padding-bottom: 30px;
+  }
+  nav{
+    background: #1b41e9;
+    height: 80px;
+    width: 100%;
+  }
+  .covid-logo {
+      position: absolute;
+      height: 50px;
+      width: 50px;
+      margin: 10px 40px !important;
+  }
+  
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  a:hover{
+      color: white;
+    background: #0a33a3;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+        z-index: 1000;
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #687f95;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li:hover {
+        transition: .5s;
+        background: #2a2f35;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover{
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+      p{
+          text-align: justify;
+          font-size: 18px;
+      }
+
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        text-align: center;
+      }
+
+.container:active {
+    margin: none;
+    border: none !important;
+}
+
+.dropdown a{
+    color:black !important;
+}
+
+.dropdown button {
+    background-color:#0000FF !important;
+    float: right;
+    right: 0px;
+}
+.mySlides {
+    display: none;
+    max-width: 2000px;
+    position: relative;
+    margin: auto;
+ 
+  }
+
+.heading {
+    text-align: center;
+}
+
+.vaccine, .social, .isolation, .mask{
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+
+.social:hover,.isolation:hover, .mask:hover, .vaccine:hover  {
+    
+    transition: 0.3s;
+    box-shadow: 1px 1px 5px 1px rgba(85, 83, 83, 0.5);
+
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card:hover {
+    transition: 0.3s;
+    box-shadow: 1px 1px 5px 1px rgba(85, 83, 83, 0.5);
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/png">
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/149814a040.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19</title>
+</head>
+
+<body>
+
+    <!-- Navbar start -->
+    <nav id="navbar-example2" >
+       
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <span class="logo">
+            <a  href="#home">
+                <img src="covid-19.svg" class="covid-logo">
+            </a>
+        </span>
+        <ul>
+            <li ><a  href="#total-case">ToTal Cases</a></li>
+            <li ><a  href="#total-recovery">Total Recovery</a></li>
+            <li ><a  href="#total-death">Total Death</a></li>
+            <li ><a  href="#today-summary">Today Summary</a></li>
+            <li ><a  href="#one">Precaution</a></li>
+        </ul>
+        
+    </nav>
+    
+    
+    
+    <!-- Navbar ends here -->
+
+    <!-- Carousal start-->
+    
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
+            <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/carousal/image1.png" class="d-block w-100 img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/carousal/image2.png" class="d-block w-100 img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/carousal/image3.png" class="d-block w-100 img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/carousal/image4.png" class="d-block w-100 img-fluid">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- covid-19 -->
+    <div class="container" id="home">
+        <h1>
+            COVID-19
+        </h1>
+        <p>
+            Coronavirus disease 2019 (COVID-19) is a contagious disease caused by severe acute respiratory syndrome
+            coronavirus 2 (SARS-CoV-2). The first case was identified in Wuhan, China, in December 2019.[6] The
+            disease has since spread worldwide, leading to an ongoing pandemic.Symptoms of COVID-19 are variable, but
+            often include fever, cough, fatigue, breathing difficulties, and losscof smell and taste. Symptoms begin one
+            to fourteen days after exposure to the virus. Of those people who develop noticeable symptoms, most (81%)
+            develop mild to moderate symptoms (up to mild pneumonia), while 14% develop severe symptoms (dyspnea,
+            hypoxia, or more than 50% lung involvement on imaging), and 5% suffer critical symptoms (respiratory
+            failure, shock, or multiorgan dysfunction).[8] At least a third of the people who are infected with the
+            virus remain asymptomatic and do not develop noticeable symptoms at any point in
+            time, but they still can spread the disease.[9][10] Some people continue to experience a range of
+            effects—known as long COVID—for months after recovery, and damage to organs has been observed.[11]
+            Multi-year studies are underway to further investigate the long-term effects of the disease
+        </p>
+    </div>
+
+    <!-- Total Case -->
+    <div class="container sections">
+        <div class="heading">
+            <h1 id="total-case">Total Case</h1>
+        </div>
+        <p>there are 115,128,349 confirmed cases, 47,470,776 active cases. India's national from Covid-19 now at 2% </p>
+        <img class="img-fluid" src="assets/images/cases.png">
+    </div>
+    <br>
+
+    <!-- Total Recovery -->
+    <div class="container sections">
+        <div class="heading">
+            <h1 id="total-recovery">Total Recovery</h1>
+        </div>
+        <p>India's national recovery rate from Covid-19 now at 97%</p>
+        <img class="img-fluid" src="assets/images/total-recovery.JPG">
+    </div>
+    <br>
+
+    <!-- Total Death -->
+    <div class="container sections">
+        <div class="heading">
+            <h1 id="total-death">Total Death</h1>
+        </div>
+        <p>India's national recovery rate from Covid-19 now at 1%</p>
+        <img class="img-fluid" src="assets/images/total-death.JPG">
+    </div>
+    <br><br>
+
+    <!-- Summary -->
+    <div class="container sections" id="today-summary">
+        <h1>TODAY SUMMARY</h1>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    
+                    <div class="card-body">
+                      <h2 class="card-title">WORLD DETAILS</h2>
+                      <hr>
+                      <p class="card-text">
+                         TOTAL CASES:14,989<br>
+                          TOTAL RECOVERY:12,456<br>
+                          TOTAL DEATH:2,533<br>
+                      </p>
+                      <a href="#" class="btn btn-primary">Go to Home</a>
+                    </div>
+                </div>
+            </div>    
+                  <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                       
+                        <div class="card-body">
+                          <h2 class="card-title">INDIA DETAILS</h2>
+                          <hr>
+                          <p class="card-text">
+                            TOTAL CASES:9,855<br>
+                            TOTAL RECOVERY:7,989<br>
+                            TOTAL DEATH:1,866<br>
+                        </p>
+                          <a href="#" class="btn btn-primary">Go to Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <br>
+
+
+    <!-- Vaccine -->
+    <div class="container vaccine" id="one">
+        <div class="row align-items-center">
+            <h1  class="heading">Vaccine</h1><br>
+            <div class="col-md-3">
+                <img class="img-fluid" src="assets/images/vaccine.svg">
+            </div>
+            <div class="col-md-9">
+                <p>A COVID‑19 vaccine is a vaccine intended to provide acquired immunity against severe acute
+                    respiratory
+                    syndrome coronavirus 2 (SARS‑CoV‑2), the virus causing coronavirus disease 2019 (COVID‑19). Prior to
+                    the
+                    COVID‑19 pandemic, there was established body of knowledge about the structure and function of
+                    coronaviruses causing diseases like severe acute respiratory syndrome (SARS) and Middle East
+                    respirator syndrome (MERS),which enabled accelerated development of various vaccine technologies
+                    during early 2020.On 10 January 2020, the SARS-CoV-2 genetic sequence data was shared through
+                    GISAID, and by 19 March, the global
+                    pharmaceutical industry announced a major commitment to address COVID-19.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!--social Distancing-->
+    <div class="container social" id="two">
+        <div class="row align-items-center">
+            <h1  class="heading">Follow The Social Distancing</h1><br>
+            <div class="col-md-3">
+                <img class="img-fluid" src="assets/images/social-distancing.svg" >
+            </div>
+            <div class="col-md-9">
+                <p>Social distancing (also known as physical distancing) includes infection control actions intended to slow
+                    the
+                    spread of the disease by minimising close contact between individuals. Methods include quarantines;
+                    travel
+                    restrictions; and the closing of schools, workplaces, stadiums, theatres, or shopping centres.
+                    Individuals
+                    may apply social distancing methods by staying at home, limiting travel, avoiding crowded areas, using
+                    no-contact greetings, and physically distancing themselves from others.[138] Many governments are now
+                    mandating or recommending social distancing in regions affected by the outbreak</p>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!--self-isolation-->
+    <div class="container isolation" id="three">
+        <div class="row align-items-center">
+            <h1  class="heading">Self-isolation</h1><br>
+            <div class="col-md-3"><img class="img-fluid d-flex align-items-center" src="assets/images/isolation.svg"></div>
+            <div class="col-md-9"><p>Self-isolation at home has been recommended for those diagnosed with COVID-19 and those who suspect they
+                have
+                been infected. Health agencies have issued detailed instructions for proper self-isolation.[142] Many
+                governments have mandated or recommended self-quarantine for entire populations. The strongest
+                self-quarantine instructions have been issued to those in high-risk groups.[143] Those who may have been
+                exposed to someone with COVID-19 and those who have recently travelled to a country or region with the
+                widespread transmission have been advised to self-quarantine for 14 days from the time of last possible
+                exposure.</p></div>
+        </div>     
+    </div>
+    <br>
+
+    <!--face Mask-->
+    <div class="container mask" id="four">
+        <div class="row align-items-center">
+            <h1  class="heading">Face masks and respiratory hygiene</h1><br>
+            <div class="col-md-3">
+                <img src="assets/images/mask.svg">
+            </div>
+            <div class="col-md-9">
+                <p>The WHO and the US CDC recommend individuals wear non-medical face coverings in public settings where
+                    there
+                    is an increased risk of transmission and where social distancing measures are difficult to maintain.
+                   
+        
+                    Masks are also strongly recommended for those who may have been infected and those taking care of
+                    someone
+                    who may have the disease.[149] When not wearing a mask, the CDC recommends covering the mouth and nose
+                    with
+                    a tissue when coughing or sneezing and recommends using the inside of the elbow if no tissue is
+                    available.
+                    Proper hand hygiene after any cough or sneeze is encouraged. Healthcare professionals interacting
+                    directly
+                    with people who have COVID-19 are advised to use respirators at least as protective as NIOSH-certified
+                    N95
+                    or equivalent, in addition to other personal protective equipment</p>
+            </div>
+        </div>
+
+        
+    </div>
+
+</body>
+
+</html>
